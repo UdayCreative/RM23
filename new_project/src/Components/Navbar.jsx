@@ -11,7 +11,7 @@ export default function Navbar() {
             <Heading> Theme Mode </Heading>
             <header>
                 <Button mt={"20px"} onClick={toggleColorMode}>
-                    {colorMode === 'light' ? <SunIcon /> : <MoonIcon />}
+                    {colorMode === 'light' ? <SunIcon color='Highlight' /> : <MoonIcon />}
                 </Button>
             </header>
         </Box>
